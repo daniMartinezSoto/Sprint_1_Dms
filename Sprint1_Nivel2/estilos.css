@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+a{text-decoration: none;}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.header{ background: url(img/header.jpg);  
+    display: flex;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+flex-flow: column nowrap;}  
+
+    .menu{background: rgba(0,0,0,0); display: flex; flex-flow:row nowrap ; align-items: center;}
+        .logo{}
+        .nav{ flex: 5 1 auto; display: flex; justify-content: space-around}
+        .social{ flex: 1 1 auto; } 
+
+.nav a{ color:grey}
+.nav a:hover{color:#343434}
+    .texto-principal{ display: flex; justify-content: center; background: rgba(0,0,0,.1)} 
+         h1{color: rgb(216, 127, 91);  }  
+
+
+.section{ background: #000; display: flex;}  
+    .articulos{background: #1C6758; display: flex; flex: 2 1 auto;flex-flow: row wrap; }
+        .article{background: #eeedeb; margin: 10px;}
+        .navegacion{background:#EEF2E6 ;flex:1 1 100%;}
+    .aside{background: #3D8361; flex: 1 1 auto;}
+        .publicidad{background: #EEF2E6;}
+
+.tituloArticulo{background: pink; color: #E94560;}
+
+
+
+
+
+
+
+
+.footer{background: #000; display: flex; justify-content: center ;}
+    .pie{background:#E94560 ; width: 300px; flex: 1 1 100%} 
+
+    @media all and (max-width:800px){
+        .section{flex-direction: column;}
+        .menu{height: auto;}
+    }
+    @media(max-width:600px) {
+        .menu{flex-direction: column;}
+        .logo{width: 100%;}
+        .nav{width: 100%;}
+        .social{width: 100%;}
+    }
+    
