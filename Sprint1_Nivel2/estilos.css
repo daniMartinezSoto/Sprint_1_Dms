@@ -18,7 +18,7 @@ a{text-decoration: none;}
 flex-flow: column nowrap;}  
 
     .menu{background: rgba(0,0,0,0); display: flex; flex-flow:row nowrap ; align-items: center;}
-        .logo{}
+        
         .nav{ flex: 5 1 auto; display: flex; justify-content: space-around}
         .social{ flex: 1 1 auto; } 
 
@@ -28,14 +28,14 @@ flex-flow: column nowrap;}
          h1{color: rgb(216, 127, 91);  }  
 
 
-.section{ background: #000; display: flex;}  
-    .articulos{background: #1C6758; display: flex; flex: 2 1 auto;flex-flow: row wrap; }
+.section{ display: flex;}  
+    .articulos{background: #d6d6d6; display: flex; flex: 2 1 auto;flex-flow: row wrap; }
         .article{background: #eeedeb; margin: 10px;}
         .navegacion{background:#EEF2E6 ;flex:1 1 100%;}
-    .aside{background: #3D8361; flex: 1 1 auto;}
-        .publicidad{background: #EEF2E6;}
+    .aside{background: #d6d6d6; margin: 5px;}
+        .publicidad{}
 
-.tituloArticulo{background: pink; color: #E94560;}
+.tituloArticulo{background: rgb(202, 113, 128); color: #ffffff;}
 
 
 
